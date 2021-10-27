@@ -1,0 +1,95 @@
+
+h1 { 
+	color:#5C8DFF ;
+	font-family: 'Antonio', sans-serif;}
+
+
+p{ 
+	color:#404E4D;
+	font-family:'Lora', serif;
+	font-weight: 200;
+	font-size: 15;
+	text-justify: justify;
+	text-align: center;
+  margin-right: 50px;
+  margin-top: 30px;}
+
+
+body { background-color: #edf2fb }
+
+h2{ color:#5C8DFF;
+	font-family: 'Antonio', sans-serif;}
+
+a{text-decoration:none;
+	text-align: center;
+	margin:  auto;
+ transition: color 0.5s ease }
+
+.button:hover{ background-color: #edf2fb ; }
+a:hover { color: #5C8DFF  }
+
+
+.card-white { 
+	border: 10px solid lightgrey;
+	border-radius: 30px;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 1.0);
+	padding: 30px;
+	margin-bottom: 20px;
+	background-color:whitesmoke;
+	text-align: center;}
+
+ul{ 
+list-style: none; 
+color: #404E4D;
+font-family:'Lora', serif;
+font-weight: 200;
+font-size: 15;
+}
+ul li::before {
+content: "\2022";   
+color:#5C8DFF ;  
+} 
+
+.container { width: 800px; margin: auto ;}
+
+.img-circle { 
+	border-radius: 50%; 
+	border-style: inset;
+  border-color: #B6CCFE;
+  border-width: 7px; }
+
+.button { 
+		background-color: #5C8DFF; 
+		color:#edf2fb; 
+		padding: 10px; 
+		border-radius: 10px; 
+		font-weight: bolder; 
+		font-size: 15px;
+	  font-family: 'Antonio', sans-serif;
+		border-style: dotted; 
+		border-color: #B6CCFE}
+
+.list { padding-left: 35%;
+        text-align: left;}
+
+.adress{ padding-left: 40%;
+        text-align: left; }
+
+
+
+@media (max-width: 960px) {
+  .container {
+   width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container 
+  {
+    width: 300px;
+  } 
+}
